@@ -1,5 +1,5 @@
 # ProxCG_HankelMatrixCompletion
-This is a Matlab package that implements a single-loop proximal-conditional-gradient penalty method for solving Hankel matrix completion problems with Laplacian noise. More details about the application can be found in our paper: [A single-loop proximal-conditional-gradient penalty method](https://arxiv.org/abs/2409.14957).
+This is a Matlab package that implements a single-loop proximal-conditional-gradient penalty method (proxCG_L1) for solving Hankel matrix completion problems with Laplacian noise. More details about the application can be found in our paper: [A single-loop proximal-conditional-gradient penalty method](https://arxiv.org/abs/2409.14957).
 
 
 ### The Matlab source codes are:
