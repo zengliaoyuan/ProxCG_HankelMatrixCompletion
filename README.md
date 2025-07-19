@@ -6,7 +6,7 @@ This is a Matlab package that implements a single-loop proximal-conditional-grad
 
 **proxCG_L1.m**: the main function of the proximal-conditional-gradient type method (proxCG) for solving the Hankel MC problem with Laplacian noise  <br />
 
-**Hkxad_fast.m** : a subroutine used in proxCG_L1 for computing the adjoint of the Hankel operator $H^*(Y)$; the code is a part of the HSGD.m from [https://github.com/caesarcai/HSGD](https://github.com/caesarcai/HSGD) <br />
+  - **Hkxad_fast.m** : a subroutine used in proxCG_L1 for computing the adjoint of the Hankel operator $H^*(Y)$; the code is a part of the HSGD.m from [https://github.com/caesarcai/HSGD](https://github.com/caesarcai/HSGD) <br />
   - **yHx_hdl.m** : a subroutine used in proxCG_L1; the function handle of $Y-H(x)$ with $Y=UDV^T$
     - **fhmvmultiply_1D.m** : a subroutine used in yHx_hdl.m; a fast multiplication of a Hankel matrix $H(x)$ and a vector $w$; downloaded from [https://github.com/caesarcai/HSGD](https://github.com/caesarcai/HSGD) <br />
   - **update_svd_thin.m** : a subroutine used in proxCG_L1.m; update the svd representation by svd_rank1_update_qr.m and truncate the singular values by thinSVD.m <br />
