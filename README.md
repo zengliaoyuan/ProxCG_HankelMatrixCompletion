@@ -4,7 +4,7 @@ This is a Matlab package that implements a single-loop proximal-conditional-grad
 
 ### The Matlab source codes are:
 
-**proxCG_L1.m**: the main function of the  proximal-conditional-gradient penalty method for solving the Hankel MC problem with Laplacian noise  <br />
+**proxCG_L1.m**: the main function of the  proximal-conditional-gradient penalty method  <br />
 
   - **Hkxad_fast.m** : a subroutine used in proxCG_L1 for computing the adjoint of the Hankel operator $H^*(Y)$; the code is a part of the HSGD.m from [https://github.com/caesarcai/HSGD](https://github.com/caesarcai/HSGD) <br />
   - **yHx_hdl.m** : a subroutine used in proxCG_L1; the function handle of $Y-H(x)$ with $Y=UDV^T$
